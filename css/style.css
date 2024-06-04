@@ -929,7 +929,11 @@ a{    text-decoration: none;
     align-items: flex-start;
     padding-left:100px ;
 }
-#page-header2{
+    #about-head img{
+    width: 50vh;
+}
+
+#page-header2, #page-header{
     width: 90vh;
 }
 #blog .blog-img{
