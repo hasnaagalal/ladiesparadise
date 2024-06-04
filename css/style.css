@@ -933,7 +933,8 @@ a{    text-decoration: none;
     width: 50vh;
 }
 
-#page-header2, #page-header{
+#page-header2,
+#page-header{
     width: 90vh;
 }
 #blog .blog-img{
