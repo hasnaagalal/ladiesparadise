@@ -682,6 +682,9 @@ a{    text-decoration: none;
     border: 1px solid #803D3B;
 }
 /* cart */
+#cart{
+    overflow-x: auto;
+}
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -730,7 +733,46 @@ a{    text-decoration: none;
 #cart table tbody td {
     font-size: 13px;
 }
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#cart-add
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #1a1a1a;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #1a1a1a;
+    padding: 30px;
+}
+#subtotal table{
+    width: 100%;
+    border: 1px solid #322C2B;
+    margin-bottom: 20px;
+    
 
+}
+#subtotl table td{
+    width: 50%;
+    border: 1px solid #1a1a1a;
+    padding: 10px;
+    font-size: 13px;
+}
 
 
 
@@ -942,8 +984,17 @@ a{    text-decoration: none;
     margin-right: 0px;
     margin-bottom: 30px;
 }
-
-
+/* cart page */
+#cart-add{
+    flex-direction: column;
+}
+#coupon{
+    width: 100%;
+}
+#subtotal{
+    width: 100%;
+    padding: 20px;
+}
 
 
 
